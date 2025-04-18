@@ -2,7 +2,7 @@ import jsQR from 'jsqr';
 import { ScanResult } from '../types';
 
 export const scanQRCode = (file: File): Promise<ScanResult> => {
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve) => {
     const reader = new FileReader();
     
     reader.onload = (event) => {
