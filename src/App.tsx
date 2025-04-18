@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import QRScanner from './components/QRScanner';
 import QRForm from './components/QRForm';
 import QRDisplay from './components/QRDisplay';
